@@ -1,4 +1,4 @@
-package Cola.java;
+package Cola;
 
 public class colaturnos {
     

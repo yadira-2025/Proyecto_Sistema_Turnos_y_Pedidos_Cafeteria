@@ -1,4 +1,4 @@
-package ColaCircular.java;
+package ColaCircular;
 
 public class cCircularestacione {
     
