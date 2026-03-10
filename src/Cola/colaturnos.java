@@ -1,23 +1,23 @@
 package Cola;
 
 public class ColaTurnos {
-// Definicion de variables 
+// Definición de variables 
     int [] turnos;
     int front;
     int rear;
     int colacapacidad;
 
 // La siguiente clase implementa una cola que gestiona los turnos del cliente
-// El constructor definen es el metodo que se utiliza para crear una Cola
-    ColaTurnos (int tamaño){
+// El constructor definen es el método que se utiliza para crear una Cola
+    public ColaTurnos (int tamaño){
         colacapacidad = tamaño; // Guarda el tamaño de la cola y crea el arreglo turnos
         turnos = new int[tamaño];
- // El inicializar el frony y rear en -1 indica que nuestra cola está vacía       
+ // El inicializar el front y rear en -1 indica que nuestra cola está vacía       
         front = -1; // Es la posición del primer cliente
         rear = -1; // Es la posición del último cliente
     }
 
-// Metodo para agregar un turno a la cola 
+// Método para agregar un turno a la cola 
 //Agrgar turno
 public void enqueue(int turnoCliente){
 // Verificar si la cola está llena
@@ -32,7 +32,7 @@ public void enqueue(int turnoCliente){
 
     }
 }
-//Este métod regresa un valor, porque devuelve el turno atendido
+//Este método regresa un valor, porque devuelve el turno atendido
 //Atender turno
 public int dequeue(){
 // Verificar si la cola está vacía
